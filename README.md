@@ -4,4 +4,3 @@ This repo is an example of how to use Container View. In this repo I use nested 
 ## Output Preview
 Here is the output of this project:
 
-![](http://luthfifr.com/buku_ios_101/gif/viewController/vc_containerView.gif)
