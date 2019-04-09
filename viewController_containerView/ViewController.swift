@@ -64,7 +64,7 @@ class ViewController: UIViewController {
         scrollView.contentSize = CGSize(width: self.view.frame.size.width, height: self.view.frame.size.height+container4.frame.size.height+(container4.frame.origin.y - container3.frame.origin.y))
         
         //cek childviewcontroller
-        print(childViewControllers.count)
+        print(children.count)
         
     }
 

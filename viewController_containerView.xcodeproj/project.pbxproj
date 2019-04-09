@@ -206,17 +206,20 @@
 					CF23167D1EDE0C6100D23860 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 2L6QV2N95T;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
 					CF2316911EDE0C6100D23860 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 2L6QV2N95T;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 						TestTargetID = CF23167D1EDE0C6100D23860;
 					};
 					CF23169C1EDE0C6100D23860 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 2L6QV2N95T;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 						TestTargetID = CF23167D1EDE0C6100D23860;
 					};
@@ -436,7 +439,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.luthfifathurrahman.viewController-containerView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -449,7 +453,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.luthfifathurrahman.viewController-containerView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -463,7 +468,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.luthfifathurrahman.viewController-containerViewTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/viewController_containerView.app/viewController_containerView";
 			};
 			name = Debug;
@@ -478,7 +484,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.luthfifathurrahman.viewController-containerViewTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/viewController_containerView.app/viewController_containerView";
 			};
 			name = Release;
@@ -492,7 +499,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.luthfifathurrahman.viewController-containerViewUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 				TEST_TARGET_NAME = viewController_containerView;
 			};
 			name = Debug;
@@ -506,7 +514,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.luthfifathurrahman.viewController-containerViewUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 				TEST_TARGET_NAME = viewController_containerView;
 			};
 			name = Release;
@@ -530,6 +539,7 @@
 				CF2316A81EDE0C6100D23860 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF2316A91EDE0C6100D23860 /* Build configuration list for PBXNativeTarget "viewController_containerViewTests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +548,7 @@
 				CF2316AB1EDE0C6100D23860 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF2316AC1EDE0C6100D23860 /* Build configuration list for PBXNativeTarget "viewController_containerViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +557,7 @@
 				CF2316AE1EDE0C6100D23860 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
